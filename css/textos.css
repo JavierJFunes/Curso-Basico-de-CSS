@@ -1,0 +1,10 @@
+body {
+    font-size: 23px;
+    width: 800px;
+    background: hsla(79, 50%, 50%, 1)
+}
+
+article {
+    background-color: hsla(62, 50%, 50%, 1);
+    font-size: 1em;
+}
