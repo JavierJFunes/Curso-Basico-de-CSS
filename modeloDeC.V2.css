@@ -8,10 +8,12 @@ body, html {
 }
 
 article{
+    width: 600px;
     text-align: center;
     background-image: url("jjf1.png");
     background-repeat: no-repeat;
     background-position-x: right;
+    column-count: 1;
 }
 
 
@@ -26,5 +28,12 @@ article{
     font-family: 'Abel', sans-serif;
     width: 500px;
    display: inline-block;
+}
+
+.foto {
+    align-items: right;
+    background-image: url("jjf1.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
 

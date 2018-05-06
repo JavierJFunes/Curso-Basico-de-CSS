@@ -8,17 +8,18 @@ body, html {
 }
 
 article{
+    width: 600px;
     text-align: center;
     background-image: url("jjf1.png");
     background-repeat: no-repeat;
     background-position-x: right;
+    column-count: 1;
 }
 
-
-
 .nombre {
+    align-content: right;
     font-size: 4.5em;
-    text-align: center;
+    text-align: right;
     vertical-align: baseline;
     /* font-family: 'Dosis', sans-serif;*/
     /*font-family: 'Roboto', sans-serif;*/
@@ -28,3 +29,13 @@ article{
    display: inline-block;
 }
 
+.columna {
+        background-color: hsla(180, 50%, 50%, 1);
+        -webkit-column-count: 1; /* Chrome, Safari, Opera */
+        -moz-column-count: 1; /* Firefox */
+        column-count: 1;
+    
+        -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+        -moz-column-gap: 40px; /* Firefox */
+        column-gap: 40px;
+}
