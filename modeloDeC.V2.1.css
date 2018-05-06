@@ -19,10 +19,8 @@ header {
     background-position-x: right;
     text-align: center;
     display: inline-block;
-    padding-left: 65em;
+    padding-left: 35em;
 }
-
-
 
 .nombre {
     font-size: 4.5em;
@@ -37,7 +35,9 @@ header {
 }
 
 .foto {
-   
+    align-content: right;
+    padding-left: 35em;
+}
 }
 
  /*background-image: url("jjf1.png");

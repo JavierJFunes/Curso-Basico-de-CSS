@@ -1,6 +1,4 @@
 body, html {
-    background-image: url("jjf1.png");
-    background-repeat: no-repeat;
     background: hsla(46, 50%, 50%, .7);
     width: 1800px;
     font-size: 20px;
@@ -10,16 +8,22 @@ body, html {
 article{
     width: 600px;
     text-align: center;
-    background-image: url("jjf1.png");
-    background-repeat: no-repeat;
-    background-position-x: right;
     column-count: 1;
 }
 
-.nombre {
+header {
     align-content: right;
+    background-image: url("jjf1.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    text-align: center;
+    display: inline-block;
+    padding-left: 35em;
+}
+
+.nombre {
     font-size: 4.5em;
-    text-align: right;
+    text-align: center;
     vertical-align: baseline;
     /* font-family: 'Dosis', sans-serif;*/
     /*font-family: 'Roboto', sans-serif;*/
@@ -29,13 +33,16 @@ article{
    display: inline-block;
 }
 
-.columna {
-        background-color: hsla(180, 50%, 50%, 1);
-        -webkit-column-count: 1; /* Chrome, Safari, Opera */
-        -moz-column-count: 1; /* Firefox */
-        column-count: 1;
-    
-        -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-        -moz-column-gap: 40px; /* Firefox */
-        column-gap: 40px;
+.foto {
+    align-content: right;
+    padding-left: 35em;
 }
+}
+
+ /*background-image: url("jjf1.png");
+    background-repeat: no-repeat;
+    background: hsla(46, 50%, 50%, .7);*/
+
+ /*   background-image: url("jjf1.png");
+    background-repeat: no-repeat;
+    background-position-x: right;*/
