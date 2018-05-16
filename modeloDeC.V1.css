@@ -34,6 +34,13 @@ aside {
     width: 1200px;
     background-color: aliceblue;
     height: 500px;
+    width: 600px;
+    text-align: left;
+    column-count: 1;
+    background-position-x: left;
+    background-position-y: top;
+    margin-left: -.5em;
+    margin-right: 1em;
 }
 
 /*#header {
@@ -124,6 +131,7 @@ aside {
 .referencias {
     background-color: aliceblue;
     width: 1200px;
+    height: 20em;
 }
 
  /*background-image: url("jjf1.png");
