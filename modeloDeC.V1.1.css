@@ -1,18 +1,18 @@
 body, html {
     background: hsla(46, 50%, 50%, .7);
     width: 1800px;
-    font-size: 18px;
+    font-size: 23px;
     margin: 1em;
    padding: 1em;
 }
 
 span {
-    width: 1200px;
+    width: 600px;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 2em;
+    font-size: 1.6em;
     align-content: left;
     display: inline-block;
-    column-count: 1;
+  
 }
 
 h4 {
@@ -21,13 +21,13 @@ h4 {
 }
 
 article{
-    width: 600px;
+    width: 1200px;
     text-align: left;
     column-count: 1;
     background-position-x: left;
     background-position-y: top;
+    margin-right: .2em;
     margin-left: -.5em;
-    margin-right: 1em;
 }
 
 aside {
@@ -56,19 +56,20 @@ aside {
 
 .nombre {
     font-size: 1em;
-    text-align: right;
+    text-align: left;
     align-content: top;
     background-color: hsl(240, 17%, 89%);
+    background-position-x: 0;
+    background-position-y: 0;
     margin-top: -5em;
-    margin-left: -.9em;
-    margin-right: 1.2em;
-    padding-right: -.7em;
-    padding-left: -.6em;
+    margin-left: 0em;
+    padding-right: 3px;
+    padding-left: 0px;
     /* font-family: 'Dosis', sans-serif;*/
     /*font-family: 'Roboto', sans-serif;*/
     /* font-family: 'Gaegu', cursive;*/
     font-family: 'Abel', sans-serif;
-    width: 725px;
+    width: 700px;
     display: inline-block;
 }
 
@@ -76,18 +77,18 @@ aside {
     width: 255px;
     padding-top: 3em;
     padding-right: 0em;
-    align-content: right;
-    align-items: right;
-    margin-bottom: -16;
+    align-content: left;
+    align-items: left;
+    margin-bottom: -6;
     background-image: url("jjf1.png");
     background-repeat: no-repeat;
-    background-position-x: 3;
-    background-position-y: -23;
+    background-position-x: 1;
+    background-position-y: 20;
     background-color: hsl(240, 17%, 89%);
     display: inline-block;
 }
 .columna {
-    font-size: .8em;
+    font-size: .9em;
     color: aliceblue;
     align-content: left;
     margin: 0em;
@@ -108,22 +109,43 @@ aside {
 }
 
 #nombre-foto {
-    width: 1080px;
+    width: 1200px;
     background-color: aliceblue;
-    font-size: 3.5em;
+    font-size: 2.8em;
     text-align: auto;
-    align-content: right;
-    margin-left: 0;
+    align-content: left;
+    margin-left: 0em;
     padding-right: 0em;
-    padding-left: 1em;
+    padding-left: 0em;
     font-family: 'Abel', sans-serif;
     display: inline-block;
-    column-count: 1;
 }
 
 .referencias {
     background-color: aliceblue;
     width: 1200px;
+}
+
+.experiencia {
+    background-color: aliceblue;
+    width: 1200px;
+}
+
+.exp-laboral {
+    background-color: aliceblue;
+    width: 1200px;
+    -ms-column-count: 2;
+    -ms-column-gap: 1em;
+    -ms-column-rule: thick solid black;
+    -moz-column-count: 2;
+    -moz-column-gap: 1em;
+    -moz-column-rule: thick solid black;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 1em;
+    -webkit-column-rule: thick solid black;
+    column-count: 2;
+    column-gap: 1em;
+    column-rule: thick solid black;
 }
 
  /*background-image: url("jjf1.png");
