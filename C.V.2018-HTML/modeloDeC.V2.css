@@ -79,11 +79,11 @@ aside {
     padding-right: 0em;
     align-content: left;
     align-items: left;
-    margin-bottom: -6;
+    margin-bottom: 6;
     background-image: url("jjf1.png");
     background-repeat: no-repeat;
-    background-position-x: 1;
-    background-position-y: 164;
+    background-position-x: 4;
+    background-position-y: 4;
     background-color: hsl(240, 17%, 89%);
     display: inline-block;
 }
@@ -146,6 +146,20 @@ aside {
     column-count: 2;
     column-gap: 1em;
     column-rule: thick solid black;
+}
+
+.empresa, .empresa2 {
+    text-align: right;
+}
+
+.empresa2 {
+    padding-top: 3em;
+    background-position-x: -3;
+    background-position-y: 700;
+}
+
+.empresa {
+    margin-top: 1em;
 }
 
  /*background-image: url("jjf1.png");

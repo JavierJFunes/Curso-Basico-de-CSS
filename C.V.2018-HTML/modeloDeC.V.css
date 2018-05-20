@@ -79,11 +79,11 @@ aside {
     padding-right: 0em;
     align-content: left;
     align-items: left;
-    margin-bottom: -6;
+    margin-bottom: -16;
     background-image: url("jjf1.png");
     background-repeat: no-repeat;
     background-position-x: 1;
-    background-position-y: 164;
+    background-position-y: 4;
     background-color: hsl(240, 17%, 89%);
     display: inline-block;
 }
