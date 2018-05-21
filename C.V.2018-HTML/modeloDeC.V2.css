@@ -83,7 +83,7 @@ aside {
     background-image: url("jjf1.png");
     background-repeat: no-repeat;
     background-position-x: 4;
-    background-position-y: 4;
+    background-position-y: 1200;
     background-color: hsl(240, 17%, 89%);
     display: inline-block;
 }
@@ -155,7 +155,7 @@ aside {
 .empresa2 {
     padding-top: 3em;
     background-position-x: -3;
-    background-position-y: 700;
+    background-position-y: 900;
 }
 
 .empresa {
