@@ -1,40 +1,27 @@
-body, html {
+body,
+html {
     background: hsla(46, 50%, 50%, .7);
-    width: 1800px;
-    font-size: 23px;
+    /* background: hsla(46, 50%, 50%, .7);*/
+    width: 3600px;
+    font-size: 32px;
     margin: 1em;
-   padding: 1em;
+    padding: 1em;
+    border: 1em, hsl(240, 17%, 89%);
 }
 
 span {
-    width: 600px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.6em;
-    align-content: left;
+    width: 1200px;
     display: inline-block;
-  
+    column-count: 1;
 }
 
 h4 {
-    font-size: .9em;
+    font-size: 1.5em;
     font-family: 'Times New Roman', Times, serif;
 }
 
-article{
-    width: 1200px;
-    text-align: left;
-    column-count: 1;
-    background-position-x: left;
-    background-position-y: top;
-    margin-right: .2em;
-    margin-left: -.5em;
-}
+article {}
 
-aside {
-    width: 1200px;
-    background-color: aliceblue;
-    height: 500px;
-}
 
 /*#header {
     width: 1111px;
@@ -54,118 +41,115 @@ aside {
     column-count: 2;
 }*/
 
-.nombre {
-    font-size: 1em;
+#nombre-foto {
+    width: 2400px;
+    background-color: aliceblue;
+    font-size: 2em;
+    padding-left: .5em;
+    font-family: 'Abel', sans-serif;
+    display: inline-block;
+}
+
+#cabezera {
+    width: 1800px;
+    background-color: hsla(241, 83%, 50%, .7);
+    column-count: 2;
+}
+
+.columna {
+    font-size: 1.2em;
+    margin-top: -34em;
+    color: aliceblue;
     text-align: left;
-    align-content: top;
-    background-color: hsl(240, 17%, 89%);
-    background-position-x: 0;
-    background-position-y: 0;
-    margin-top: -5em;
-    margin-left: 0em;
-    padding-right: 3px;
-    padding-left: 0px;
+    width: 1100px;
+    background-color: hsla(241, 83%, 50%, .7);
+    display: inline-block;
+}
+
+.nombre-foto-referencias {
+    width: 2400px;
+    margin-left: 34.5em;
+    margin-right: 1em;
+    margin-top: 1em;
+    padding-right: 4em;
+    display: inline-block;
+}
+
+.nombre {
+    font-size: 2.4em;
+    text-align: left;
+    background-position-x: left;
+    background-position-y: top;
+    margin-top: .5em;
+    padding-right: 6em;
     /* font-family: 'Dosis', sans-serif;*/
     /*font-family: 'Roboto', sans-serif;*/
     /* font-family: 'Gaegu', cursive;*/
     font-family: 'Abel', sans-serif;
-    width: 700px;
     display: inline-block;
 }
 
 .foto {
-    width: 255px;
-    padding-top: 3em;
-    padding-right: 0em;
-    align-content: left;
-    align-items: left;
-    margin-bottom: 6;
-    background-image: url("jjf1.png");
+    width: 500px;
+    height: auto;
+    padding-top: 3.5em;
+    margin-top: .4em;
+    margin-right: 1em;
+    padding-bottom: 5em;
+    background-image: url("yo-500.png");
     background-repeat: no-repeat;
-    background-position-x: 4;
-    background-position-y: 1200;
     background-color: hsl(240, 17%, 89%);
-    display: inline-block;
-}
-.columna {
-    font-size: .9em;
-    color: aliceblue;
-    align-content: left;
-    margin: 0em;
-    margin-top: 0em;
-    margin-right: 0em;
-    padding-top: 0px;
-    text-align: left;
-    width: 600px;
-    background-color: hsla(241, 83%, 50%, .7);
-    background-position-x: left;
-    background-position-y: top;
-    display: inline-block; 
-}
-
-#cabecera {
-    width: 1800px;
-    column-count: 3;
-}
-
-#nombre-foto {
-    width: 1200px;
-    background-color: aliceblue;
-    font-size: 2.8em;
-    text-align: auto;
-    align-content: left;
-    margin-left: 0em;
-    padding-right: 0em;
-    padding-left: 0em;
-    font-family: 'Abel', sans-serif;
     display: inline-block;
 }
 
 .referencias {
     background-color: aliceblue;
-    width: 1200px;
-}
-
-.experiencia {
-    background-color: aliceblue;
-    width: 1200px;
+    font-size: 1.5em;
+    width: 2400px;
+    height: 500px;
+    padding-left: .5em;
 }
 
 .exp-laboral {
+    margin-left: 23em;
+    margin-top: -80em;
     background-color: aliceblue;
-    width: 1200px;
-    -ms-column-count: 2;
-    -ms-column-gap: 1em;
-    -ms-column-rule: thick solid black;
-    -moz-column-count: 2;
-    -moz-column-gap: 1em;
-    -moz-column-rule: thick solid black;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 1em;
-    -webkit-column-rule: thick solid black;
+    width: 2400px;
+    font-size: 1.5em;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     column-count: 2;
     column-gap: 1em;
     column-rule: thick solid black;
 }
 
-.empresa, .empresa2 {
+experiencia {
+    padding-left: 1em;
+    margin-left: 1em;
+}
+
+.empresa,
+.empresa2 {
     text-align: right;
 }
 
 .empresa2 {
-    padding-top: 3em;
-    background-position-x: -3;
-    background-position-y: 900;
+    margin: .5em;
+    padding-top: 1em;
+    background-position-x: -1;
+    background-position-y: 3;
 }
 
 .empresa {
-    margin-top: 1em;
+    margin: .5em;
 }
 
- /*background-image: url("jjf1.png");
+
+/*background-image: url("jjf1.png");
     background-repeat: no-repeat;
     background: hsla(46, 50%, 50%, .7);*/
 
- /*   background-image: url("jjf1.png");
+
+/*   background-image: url("jjf1.png");
     background-repeat: no-repeat;
     background-position-x: right;*/
